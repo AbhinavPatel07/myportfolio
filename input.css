@@ -1,0 +1,6 @@
+@tailwind utilities;
+@import "tailwindcss";
+
+.message-btn{
+    @apply text-orange-500 m-5 border border-black rounded-lg hover:bg-orange-300 hover:text-white focus:border-dashed active:bg-amber-950;
+}
